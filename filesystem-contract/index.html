@@ -10,13 +10,9 @@
       
       
       
-        <link rel="canonical" href="https://chopratejas.github.io/headroom/shared-context/">
+        <link rel="canonical" href="https://chopratejas.github.io/headroom/filesystem-contract/">
       
       
-        <link rel="prev" href="../memory/">
-      
-      
-        <link rel="next" href="../learn/">
       
       
         
@@ -27,7 +23,7 @@
     
     
       
-        <title>Shared Context - Headroom</title>
+        <title>Filesystem Contract - Headroom</title>
       
     
     
@@ -80,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#sharedcontext-compressed-inter-agent-context-sharing" class="md-skip">
+        <a href="#filesystem-contract" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Shared Context
+              Filesystem Contract
             
           </span>
         </div>
@@ -267,12 +263,10 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
+      <li class="md-tabs__item">
         <a href="../proxy/" class="md-tabs__link">
           
   
@@ -692,10 +686,8 @@
       
   
   
-    
   
   
-  
     
     
       
@@ -717,22 +709,21 @@
     
     
       
-        
-        
-      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
   
   
@@ -750,7 +741,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -905,37 +896,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Shared Context
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../shared-context/" class="md-nav__link">
         
   
   
@@ -951,203 +915,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#quick-start" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Quick Start
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#api" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        API
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="API">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#putkey-content-agentnone" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        put(key, content, *, agent=None)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#getkey-fullfalse" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        get(key, *, full=False)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#get_entrykey" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        get_entry(key)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#keys" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        keys()
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#stats" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        stats()
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#clear" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        clear()
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Configuration
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#framework-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Framework Examples
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Framework Examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#crewai" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CrewAI
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#langgraph" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        LangGraph
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#openai-agents-sdk" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenAI Agents SDK
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#any-framework" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Any Framework
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-it-works" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        How It Works
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -2100,10 +1867,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#quick-start" class="md-nav__link">
+  <a href="#two-root-model" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Quick Start
+        Two-root model
       
     </span>
   </a>
@@ -2111,22 +1878,33 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#api" class="md-nav__link">
+  <a href="#precedence" class="md-nav__link">
     <span class="md-ellipsis">
       
-        API
+        Precedence
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="API">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bucket-assignments" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bucket assignments
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Bucket assignments">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#putkey-content-agentnone" class="md-nav__link">
+  <a href="#workspace-bucket-headroom_workspace_dir" class="md-nav__link">
     <span class="md-ellipsis">
       
-        put(key, content, *, agent=None)
+        Workspace bucket (HEADROOM_WORKSPACE_DIR)
       
     </span>
   </a>
@@ -2134,10 +1912,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#getkey-fullfalse" class="md-nav__link">
+  <a href="#config-bucket-headroom_config_dir" class="md-nav__link">
     <span class="md-ellipsis">
       
-        get(key, *, full=False)
+        Config bucket (HEADROOM_CONFIG_DIR)
       
     </span>
   </a>
@@ -2145,43 +1923,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#get_entrykey" class="md-nav__link">
+  <a href="#backward-compatibility-modelsjson" class="md-nav__link">
     <span class="md-ellipsis">
       
-        get_entry(key)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#keys" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        keys()
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#stats" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        stats()
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#clear" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        clear()
+        Backward compatibility — models.json
       
     </span>
   </a>
@@ -2194,33 +1939,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#configuration" class="md-nav__link">
+  <a href="#plugin-authors" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Configuration
+        Plugin authors
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#framework-examples" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Framework Examples
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Framework Examples">
+    <nav class="md-nav" aria-label="Plugin authors">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#crewai" class="md-nav__link">
+  <a href="#python" class="md-nav__link">
     <span class="md-ellipsis">
       
-        CrewAI
+        Python
       
     </span>
   </a>
@@ -2228,32 +1962,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#langgraph" class="md-nav__link">
+  <a href="#npm-sdk" class="md-nav__link">
     <span class="md-ellipsis">
       
-        LangGraph
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#openai-agents-sdk" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        OpenAI Agents SDK
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#any-framework" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Any Framework
+        npm SDK
       
     </span>
   </a>
@@ -2266,10 +1978,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-it-works" class="md-nav__link">
+  <a href="#docker-naming-overlap-headroom_workspace-vs-headroom_workspace_dir" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How It Works
+        Docker naming overlap: HEADROOM_WORKSPACE vs HEADROOM_WORKSPACE_DIR
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-scoped-headroom-directories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Project-scoped .headroom/ directories
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#legacy-per-resource-env-vars" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Legacy per-resource env vars
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#see-also" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        See also
       
     </span>
   </a>
@@ -2296,120 +2041,260 @@
   
 
 
-<h1 id="sharedcontext-compressed-inter-agent-context-sharing">SharedContext — Compressed Inter-Agent Context Sharing<a class="headerlink" href="#sharedcontext-compressed-inter-agent-context-sharing" title="Permanent link">&para;</a></h1>
-<p>When agents hand off to each other, context gets replayed in full. SharedContext compresses what moves between agents using Headroom's compression pipeline.</p>
-<h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Permanent link">&para;</a></h2>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">headroom</span><span class="w"> </span><span class="kn">import</span> <span class="n">SharedContext</span>
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="n">ctx</span> <span class="o">=</span> <span class="n">SharedContext</span><span class="p">()</span>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="c1"># Agent A stores large output</span>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="n">ctx</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s2">&quot;research&quot;</span><span class="p">,</span> <span class="n">big_research_output</span><span class="p">,</span> <span class="n">agent</span><span class="o">=</span><span class="s2">&quot;researcher&quot;</span><span class="p">)</span>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="c1"># Agent B gets compressed version (~80% smaller)</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="n">summary</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;research&quot;</span><span class="p">)</span>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="c1"># Agent B needs full details</span>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="n">full</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;research&quot;</span><span class="p">,</span> <span class="n">full</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<h1 id="filesystem-contract">Filesystem Contract<a class="headerlink" href="#filesystem-contract" title="Permanent link">&para;</a></h1>
+<p>Headroom writes configuration, runtime state, logs, and caches to a small
+set of well-known paths under the user's home directory. This page is the
+source of truth for where those paths live, how to override them, and how
+they behave inside Docker containers.</p>
+<h2 id="two-root-model">Two-root model<a class="headerlink" href="#two-root-model" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Default</th>
+<th>Purpose</th>
+<th>Typical access</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>HEADROOM_CONFIG_DIR</code></td>
+<td><code>~/.headroom/config</code></td>
+<td>User/admin-authored configuration (model catalogs, plugin settings, etc.)</td>
+<td>Read-mostly</td>
+</tr>
+<tr>
+<td><code>HEADROOM_WORKSPACE_DIR</code></td>
+<td><code>~/.headroom</code></td>
+<td>Runtime state written by the proxy and CLI (savings, logs, memory DB, telemetry, caches)</td>
+<td>Read-write</td>
+</tr>
+</tbody>
+</table>
+<p>Both variables are recognized by the Python proxy / CLI and the npm SDK.
+They are <strong>additive</strong> — every pre-existing per-resource env var
+(<code>HEADROOM_SAVINGS_PATH</code>, <code>HEADROOM_TOIN_PATH</code>,
+<code>HEADROOM_SUBSCRIPTION_STATE_PATH</code>, <code>HEADROOM_MODEL_LIMITS</code>, ...)
+continues to work with identical semantics.</p>
+<h2 id="precedence">Precedence<a class="headerlink" href="#precedence" title="Permanent link">&para;</a></h2>
+<p>For every per-resource helper, resolution follows this order:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>explicit argument
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    │ falls through when None/&quot;&quot;
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    ▼
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>per-resource env var (e.g. HEADROOM_SAVINGS_PATH)
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    │ falls through when unset/blank
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>    ▼
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>derived from canonical root
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    │ e.g. ${HEADROOM_WORKSPACE_DIR}/proxy_savings.json
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    ▼
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>default (e.g. ~/.headroom/proxy_savings.json)
 </span></code></pre></div>
-<h2 id="api">API<a class="headerlink" href="#api" title="Permanent link">&para;</a></h2>
-<h3 id="putkey-content-agentnone"><code>put(key, content, *, agent=None)</code><a class="headerlink" href="#putkey-content-agentnone" title="Permanent link">&para;</a></h3>
-<p>Store content under a key. Compresses automatically using Headroom's full pipeline (SmartCrusher for JSON, CodeCompressor for code, Kompress for text).</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">entry</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s2">&quot;findings&quot;</span><span class="p">,</span> <span class="n">big_json_output</span><span class="p">,</span> <span class="n">agent</span><span class="o">=</span><span class="s2">&quot;researcher&quot;</span><span class="p">)</span>
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">entry</span><span class="o">.</span><span class="n">original_tokens</span>     <span class="c1"># 20,000</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="n">entry</span><span class="o">.</span><span class="n">compressed_tokens</span>   <span class="c1"># 4,000</span>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="n">entry</span><span class="o">.</span><span class="n">savings_percent</span>     <span class="c1"># 80.0</span>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="n">entry</span><span class="o">.</span><span class="n">transforms</span>          <span class="c1"># [&quot;router:json:0.20&quot;]</span>
-</span></code></pre></div>
-<h3 id="getkey-fullfalse"><code>get(key, *, full=False)</code><a class="headerlink" href="#getkey-fullfalse" title="Permanent link">&para;</a></h3>
-<p>Retrieve content. Returns compressed version by default, original with <code>full=True</code>.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">compressed</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;findings&quot;</span><span class="p">)</span>           <span class="c1"># 4K tokens</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">original</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;findings&quot;</span><span class="p">,</span> <span class="n">full</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>  <span class="c1"># 20K tokens</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="n">missing</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;nonexistent&quot;</span><span class="p">)</span>           <span class="c1"># None</span>
-</span></code></pre></div>
-<h3 id="get_entrykey"><code>get_entry(key)</code><a class="headerlink" href="#get_entrykey" title="Permanent link">&para;</a></h3>
-<p>Get the full <code>ContextEntry</code> with metadata.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">entry</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">get_entry</span><span class="p">(</span><span class="s2">&quot;findings&quot;</span><span class="p">)</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">entry</span><span class="o">.</span><span class="n">key</span>                <span class="c1"># &quot;findings&quot;</span>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">entry</span><span class="o">.</span><span class="n">agent</span>              <span class="c1"># &quot;researcher&quot;</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="n">entry</span><span class="o">.</span><span class="n">original_tokens</span>    <span class="c1"># 20000</span>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="n">entry</span><span class="o">.</span><span class="n">compressed_tokens</span>  <span class="c1"># 4000</span>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="n">entry</span><span class="o">.</span><span class="n">savings_percent</span>    <span class="c1"># 80.0</span>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="n">entry</span><span class="o">.</span><span class="n">timestamp</span>          <span class="c1"># 1710000000.0</span>
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="n">entry</span><span class="o">.</span><span class="n">transforms</span>         <span class="c1"># [&quot;router:json:0.20&quot;]</span>
-</span></code></pre></div>
-<h3 id="keys"><code>keys()</code><a class="headerlink" href="#keys" title="Permanent link">&para;</a></h3>
-<p>List all non-expired keys.</p>
-<h3 id="stats"><code>stats()</code><a class="headerlink" href="#stats" title="Permanent link">&para;</a></h3>
-<p>Aggregated stats across all entries.</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">stats</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">stats</span><span class="p">()</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="n">stats</span><span class="o">.</span><span class="n">entries</span>                  <span class="c1"># 3</span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="n">stats</span><span class="o">.</span><span class="n">total_original_tokens</span>    <span class="c1"># 60000</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="n">stats</span><span class="o">.</span><span class="n">total_compressed_tokens</span>  <span class="c1"># 12000</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="n">stats</span><span class="o">.</span><span class="n">total_tokens_saved</span>       <span class="c1"># 48000</span>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="n">stats</span><span class="o">.</span><span class="n">savings_percent</span>          <span class="c1"># 80.0</span>
-</span></code></pre></div>
-<h3 id="clear"><code>clear()</code><a class="headerlink" href="#clear" title="Permanent link">&para;</a></h3>
-<p>Remove all entries.</p>
-<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">ctx</span> <span class="o">=</span> <span class="n">SharedContext</span><span class="p">(</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>    <span class="n">model</span><span class="o">=</span><span class="s2">&quot;claude-sonnet-4-5-20250929&quot;</span><span class="p">,</span>  <span class="c1"># For token counting</span>
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>    <span class="n">ttl</span><span class="o">=</span><span class="mi">3600</span><span class="p">,</span>                             <span class="c1"># 1 hour (default)</span>
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>    <span class="n">max_entries</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>                       <span class="c1"># Evicts oldest when full</span>
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="p">)</span>
-</span></code></pre></div>
-<h2 id="framework-examples">Framework Examples<a class="headerlink" href="#framework-examples" title="Permanent link">&para;</a></h2>
-<h3 id="crewai">CrewAI<a class="headerlink" href="#crewai" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">headroom</span><span class="w"> </span><span class="kn">import</span> <span class="n">SharedContext</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="n">ctx</span> <span class="o">=</span> <span class="n">SharedContext</span><span class="p">()</span>
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="c1"># After researcher task</span>
-</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="n">ctx</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s2">&quot;findings&quot;</span><span class="p">,</span> <span class="n">researcher_task</span><span class="o">.</span><span class="n">output</span><span class="o">.</span><span class="n">raw</span><span class="p">)</span>
-</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>
-</span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a><span class="c1"># Coder task gets compressed context</span>
-</span><span id="__span-6-9"><a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a><span class="n">coder_context</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;findings&quot;</span><span class="p">)</span>
-</span></code></pre></div>
-<h3 id="langgraph">LangGraph<a class="headerlink" href="#langgraph" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">headroom</span><span class="w"> </span><span class="kn">import</span> <span class="n">SharedContext</span>
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="n">ctx</span> <span class="o">=</span> <span class="n">SharedContext</span><span class="p">()</span>
-</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>
-</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="k">def</span><span class="w"> </span><span class="nf">researcher_node</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
-</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>    <span class="n">result</span> <span class="o">=</span> <span class="n">do_research</span><span class="p">()</span>
-</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>    <span class="n">ctx</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s2">&quot;research&quot;</span><span class="p">,</span> <span class="n">result</span><span class="p">)</span>
-</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>    <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;research_summary&quot;</span><span class="p">:</span> <span class="n">ctx</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;research&quot;</span><span class="p">)}</span>
-</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>
-</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a><span class="k">def</span><span class="w"> </span><span class="nf">coder_node</span><span class="p">(</span><span class="n">state</span><span class="p">):</span>
-</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>    <span class="c1"># Compressed summary in state, full details on demand</span>
-</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>    <span class="n">full</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;research&quot;</span><span class="p">,</span> <span class="n">full</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</span><span id="__span-7-13"><a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>    <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;code&quot;</span><span class="p">:</span> <span class="n">write_code</span><span class="p">(</span><span class="n">full</span><span class="p">)}</span>
-</span></code></pre></div>
-<h3 id="openai-agents-sdk">OpenAI Agents SDK<a class="headerlink" href="#openai-agents-sdk" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">headroom</span><span class="w"> </span><span class="kn">import</span> <span class="n">SharedContext</span>
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>
-</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="n">ctx</span> <span class="o">=</span> <span class="n">SharedContext</span><span class="p">()</span>
-</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>
-</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="k">def</span><span class="w"> </span><span class="nf">compress_handoff</span><span class="p">(</span><span class="n">messages</span><span class="p">):</span>
-</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>    <span class="k">for</span> <span class="n">msg</span> <span class="ow">in</span> <span class="n">messages</span><span class="p">:</span>
-</span><span id="__span-8-7"><a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">content</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1000</span><span class="p">:</span>
-</span><span id="__span-8-8"><a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>            <span class="n">ctx</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">id</span><span class="p">,</span> <span class="n">msg</span><span class="o">.</span><span class="n">content</span><span class="p">)</span>
-</span><span id="__span-8-9"><a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>            <span class="n">msg</span><span class="o">.</span><span class="n">content</span> <span class="o">=</span> <span class="n">ctx</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">msg</span><span class="o">.</span><span class="n">id</span><span class="p">)</span>
-</span><span id="__span-8-10"><a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>    <span class="k">return</span> <span class="n">messages</span>
-</span><span id="__span-8-11"><a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>
-</span><span id="__span-8-12"><a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a><span class="n">handoff</span><span class="p">(</span><span class="n">agent</span><span class="o">=</span><span class="n">coder</span><span class="p">,</span> <span class="n">input_filter</span><span class="o">=</span><span class="n">compress_handoff</span><span class="p">)</span>
-</span></code></pre></div>
-<h3 id="any-framework">Any Framework<a class="headerlink" href="#any-framework" title="Permanent link">&para;</a></h3>
-<p>SharedContext is framework-agnostic. It's just <code>put()</code> and <code>get()</code>. Use it wherever context moves between agents.</p>
-<h2 id="how-it-works">How It Works<a class="headerlink" href="#how-it-works" title="Permanent link">&para;</a></h2>
-<p>Under the hood, <code>put()</code> calls <code>headroom.compress()</code> (the same pipeline used by the proxy) and stores the original in memory. <code>get()</code> returns the compressed version. <code>get(full=True)</code> returns the original.</p>
+<p>Examples:</p>
 <ul>
-<li>JSON arrays → SmartCrusher (70-95% compression)</li>
-<li>Code → CodeCompressor (AST-aware, with <code>[code]</code> extra)</li>
-<li>Text → Kompress (ModernBERT, with <code>[ml]</code> extra) or passthrough</li>
-<li>Entries expire after TTL (default 1 hour)</li>
-<li>Oldest entries evicted when max_entries reached</li>
+<li><code>HEADROOM_WORKSPACE_DIR=/mnt/state</code> → savings land at
+  <code>/mnt/state/proxy_savings.json</code> unless <code>HEADROOM_SAVINGS_PATH</code> overrides.</li>
+<li><code>HEADROOM_SAVINGS_PATH=/custom/savings.json</code> always wins, even when
+  <code>HEADROOM_WORKSPACE_DIR</code> is set.</li>
+<li>Unset both and the default is <code>~/.headroom/proxy_savings.json</code>.</li>
+</ul>
+<h2 id="bucket-assignments">Bucket assignments<a class="headerlink" href="#bucket-assignments" title="Permanent link">&para;</a></h2>
+<h3 id="workspace-bucket-headroom_workspace_dir">Workspace bucket (<code>HEADROOM_WORKSPACE_DIR</code>)<a class="headerlink" href="#workspace-bucket-headroom_workspace_dir" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Default path</th>
+<th>Legacy env var</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Proxy savings ledger</td>
+<td><code>${WORKSPACE_DIR}/proxy_savings.json</code></td>
+<td><code>HEADROOM_SAVINGS_PATH</code></td>
+</tr>
+<tr>
+<td>TOIN telemetry JSON</td>
+<td><code>${WORKSPACE_DIR}/toin.json</code></td>
+<td><code>HEADROOM_TOIN_PATH</code></td>
+</tr>
+<tr>
+<td>Subscription tracker state</td>
+<td><code>${WORKSPACE_DIR}/subscription_state.json</code></td>
+<td><code>HEADROOM_SUBSCRIPTION_STATE_PATH</code></td>
+</tr>
+<tr>
+<td>Memory SQLite</td>
+<td><code>${WORKSPACE_DIR}/memory.db</code></td>
+<td>CLI <code>--memory-db-path</code></td>
+</tr>
+<tr>
+<td>Native memory directory</td>
+<td><code>${WORKSPACE_DIR}/memories/</code></td>
+<td><code>MemoryConfig.native_memory_dir</code></td>
+</tr>
+<tr>
+<td>License cache</td>
+<td><code>${WORKSPACE_DIR}/license_cache.json</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Session stats JSONL</td>
+<td><code>${WORKSPACE_DIR}/session_stats.jsonl</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Memory sync state</td>
+<td><code>${WORKSPACE_DIR}/sync_state.json</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Memory bridge state</td>
+<td><code>${WORKSPACE_DIR}/bridge_state.json</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Proxy log directory</td>
+<td><code>${WORKSPACE_DIR}/logs/</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>HTTP 400 debug dumps</td>
+<td><code>${WORKSPACE_DIR}/logs/debug_400/</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Vendored <code>rtk</code> binary</td>
+<td><code>${WORKSPACE_DIR}/bin/rtk[.exe]</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Deployment profiles</td>
+<td><code>${WORKSPACE_DIR}/deploy/</code></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Beacon lock file</td>
+<td><code>${WORKSPACE_DIR}/.beacon_lock_&lt;port&gt;</code></td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3 id="config-bucket-headroom_config_dir">Config bucket (<code>HEADROOM_CONFIG_DIR</code>)<a class="headerlink" href="#config-bucket-headroom_config_dir" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>Default path</th>
+<th>Legacy env var</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Models catalog</td>
+<td><code>${CONFIG_DIR}/models.json</code></td>
+<td><code>HEADROOM_MODEL_LIMITS</code> (content override)</td>
+</tr>
+<tr>
+<td>Plugin settings</td>
+<td><code>${CONFIG_DIR}/plugins/&lt;name&gt;/...</code></td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3 id="backward-compatibility-modelsjson">Backward compatibility — models.json<a class="headerlink" href="#backward-compatibility-modelsjson" title="Permanent link">&para;</a></h3>
+<p><code>models.json</code> historically lived at <code>~/.headroom/models.json</code> (i.e. in the
+workspace root, not in <code>config/</code>). For a seamless migration the Python
+providers check <strong>both</strong> locations in this order:</p>
+<ol>
+<li><code>${HEADROOM_CONFIG_DIR}/models.json</code> (new canonical location)</li>
+<li><code>${HEADROOM_WORKSPACE_DIR}/models.json</code> (legacy fallback)</li>
+</ol>
+<p>Existing installs continue to work unchanged. New installs are encouraged
+to put <code>models.json</code> in the config bucket.</p>
+<h2 id="plugin-authors">Plugin authors<a class="headerlink" href="#plugin-authors" title="Permanent link">&para;</a></h2>
+<p>Two helpers give plugins isolated, per-plugin directories under both
+roots:</p>
+<h3 id="python">Python<a class="headerlink" href="#python" title="Permanent link">&para;</a></h3>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">headroom</span><span class="w"> </span><span class="kn">import</span> <span class="n">paths</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">cfg_dir</span> <span class="o">=</span> <span class="n">paths</span><span class="o">.</span><span class="n">plugin_config_dir</span><span class="p">(</span><span class="s2">&quot;my-plugin&quot;</span><span class="p">)</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="c1"># → ~/.headroom/config/plugins/my-plugin</span>
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="n">state_dir</span> <span class="o">=</span> <span class="n">paths</span><span class="o">.</span><span class="n">plugin_workspace_dir</span><span class="p">(</span><span class="s2">&quot;my-plugin&quot;</span><span class="p">)</span>
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="c1"># → ~/.headroom/plugins/my-plugin</span>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a><span class="n">cfg_dir</span><span class="o">.</span><span class="n">mkdir</span><span class="p">(</span><span class="n">parents</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">exist_ok</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a><span class="p">(</span><span class="n">cfg_dir</span> <span class="o">/</span> <span class="s2">&quot;settings.json&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">write_text</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2">&quot;</span><span class="p">)</span>
+</span></code></pre></div>
+<h3 id="npm-sdk">npm SDK<a class="headerlink" href="#npm-sdk" title="Permanent link">&para;</a></h3>
+<div class="language-typescript highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">pluginConfigDir</span><span class="p">,</span><span class="w"> </span><span class="nx">pluginWorkspaceDir</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s2">&quot;@headroom/sdk&quot;</span><span class="p">;</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="kd">const</span><span class="w"> </span><span class="nx">cfgDir</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">pluginConfigDir</span><span class="p">(</span><span class="s2">&quot;my-plugin&quot;</span><span class="p">);</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="kd">const</span><span class="w"> </span><span class="nx">stateDir</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">pluginWorkspaceDir</span><span class="p">(</span><span class="s2">&quot;my-plugin&quot;</span><span class="p">);</span>
+</span></code></pre></div>
+<p>Plugin-author helpers reject names containing <code>/</code> or <code>\</code> to keep the
+namespace flat.</p>
+<h2 id="docker-naming-overlap-headroom_workspace-vs-headroom_workspace_dir">Docker naming overlap: <code>HEADROOM_WORKSPACE</code> vs <code>HEADROOM_WORKSPACE_DIR</code><a class="headerlink" href="#docker-naming-overlap-headroom_workspace-vs-headroom_workspace_dir" title="Permanent link">&para;</a></h2>
+<p>These are <strong>two different variables</strong> with different semantics, both
+retained for backward compatibility:</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Scope</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>HEADROOM_WORKSPACE</code></td>
+<td>Host-side (Docker)</td>
+<td>Directory to bind-mount into the container as <code>/workspace</code> (equivalent to CWD in native runs). Used by <code>docker-compose.native.yml</code>.</td>
+</tr>
+<tr>
+<td><code>HEADROOM_WORKSPACE_DIR</code></td>
+<td>Inside-the-container</td>
+<td>Canonical Headroom state root. Resolves to <code>/tmp/headroom-home/.headroom</code> inside the official container image, which in turn bind-mounts to <code>${HOME}/.headroom</code> on the host.</td>
+</tr>
+</tbody>
+</table>
+<p>The official Docker bootstrap (compose file, <code>scripts/install.sh</code>, and the
+Python <code>install</code> command) sets <code>HEADROOM_WORKSPACE_DIR</code> and
+<code>HEADROOM_CONFIG_DIR</code> inside the container so the proxy resolves state to
+the bind-mounted path without any user action.</p>
+<h2 id="project-scoped-headroom-directories">Project-scoped <code>.headroom/</code> directories<a class="headerlink" href="#project-scoped-headroom-directories" title="Permanent link">&para;</a></h2>
+<p>A few code paths deliberately use <strong>project-local</strong> <code>.headroom/</code> paths
+resolved relative to the current working directory rather than the
+canonical workspace root:</p>
+<ul>
+<li><code>headroom/proxy/server.py</code> — project-scoped memory DB default</li>
+<li><code>headroom/memory/mcp_server.py</code> — project-scoped memory DB default</li>
+<li><code>headroom/cli/wrap.py</code> — project-scoped memory and hook artifacts</li>
+</ul>
+<p>These <strong>do not obey</strong> <code>HEADROOM_WORKSPACE_DIR</code>. This is intentional: it
+preserves the "project memory lives in the project directory" invariant
+documented in <a href="../memory/">memory.md</a>. Users who want a single centrally
+located memory store can pass <code>--memory-db-path &lt;path&gt;</code> explicitly or set
+the path via the plugin API.</p>
+<h2 id="legacy-per-resource-env-vars">Legacy per-resource env vars<a class="headerlink" href="#legacy-per-resource-env-vars" title="Permanent link">&para;</a></h2>
+<p>Every legacy env var continues to work with its original semantics (raw
+string in, raw string out — no tilde expansion, no path-separator
+normalization), ensuring byte-for-byte backward compatibility.</p>
+<p>Full list:</p>
+<ul>
+<li><code>HEADROOM_SAVINGS_PATH</code></li>
+<li><code>HEADROOM_TOIN_PATH</code></li>
+<li><code>HEADROOM_SUBSCRIPTION_STATE_PATH</code></li>
+<li><code>HEADROOM_MODEL_LIMITS</code> (content override — JSON string or file path)</li>
+</ul>
+<h2 id="see-also">See also<a class="headerlink" href="#see-also" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../configuration/">configuration.md</a> — general configuration reference</li>
+<li><a href="../docker-install/">docker-install.md</a> — Docker install details</li>
+<li><a href="../persistent-installs/">persistent-installs.md</a> — persistent
+  deployment profiles</li>
+<li><a href="../memory/">memory.md</a> — memory-system paths and project scoping</li>
 </ul>
 
 
